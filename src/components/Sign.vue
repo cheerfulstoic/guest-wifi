@@ -25,11 +25,11 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
+import Vue from "vue";
 
 import VueQr from 'vue-qr'
 
-@Component({
+export default Vue.extend({
   components: {
     VueQr,
   },
@@ -47,7 +47,6 @@ import VueQr from 'vue-qr'
     }
   },
 })
-export default class Sign extends Vue {}
 </script>
 
 <style>

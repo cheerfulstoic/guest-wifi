@@ -60,7 +60,7 @@ import Sign from './components/Sign.vue'
   components: {
     Sign,
   },
-  data () {
+  data (): object {
     return({
       ssid: '',
       password: '',
