@@ -1,8 +1,5 @@
 <template>
   <div id="sign">
-    <img src="../assets/wifi.png" class="wifi-icon">
-
-    <h2>Wi-Fi</h2>
 
     <h1 class="header">{{header}}</h1>
 
@@ -21,6 +18,10 @@
     </div>
 
     <h1 class="footer">{{footer}}</h1>
+
+    <img src="../assets/wifi.png" class="wifi-icon">
+
+    <h2>Scan with your camera app to connect</h2>
   </div>
 </template>
 
@@ -53,6 +54,7 @@ export default Vue.extend({
 
 #sign {
   margin: 0 auto;
+  padding: 2em;
   border: 5px solid #6193FE;
   border-radius: 30px;
   height: 768px;
