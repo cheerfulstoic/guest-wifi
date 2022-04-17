@@ -3,7 +3,7 @@
     <div id="intro">
       <h1>Guest Wi-Fi Sign Generator</h1>
 
-      <p>Use the below form to create a sign that you can print out and display in our home or office to share your wi-fi password with guests.  They can even use their camera apps to scan the QR code to sign in immediately!</p>
+      <p>Use the below form to create a sign that you can print out and display in our home or office to share your wi-fi password with guests.  Modern phone cameras apps can be used to scan the QR code to sign in without typing!</p>
     </div>
 
     <form class="pure-form pure-form-stacked">
@@ -66,7 +66,7 @@ import Sign from './components/Sign.vue'
       password: '',
       security: '',
 
-      header: 'Welcome!',
+      header: 'Welcome to Our Home!',
       footer: '',
     })
   },

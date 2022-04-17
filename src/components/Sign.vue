@@ -57,8 +57,8 @@ export default Vue.extend({
   padding: 2em;
   border: 5px solid #6193FE;
   border-radius: 30px;
-  height: 768px;
-  width: 1024px;
+  height: 650px;
+  width: 1200px;
 }
 
 .wifi-icon {
@@ -67,7 +67,7 @@ export default Vue.extend({
 }
 
 .header {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .detail {
