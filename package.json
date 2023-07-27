@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --openssl-legacy-provider start",
-    "build": "vue-cli-service build --openssl-legacy-provider start",
-    "lint": "vue-cli-service lint --openssl-legacy-provider start"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
